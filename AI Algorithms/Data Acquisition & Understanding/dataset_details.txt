@@ -1,0 +1,16 @@
+Data Source URL: https://www.kaggle.com/hk7797/stock-market-india
+Size: 1.34 GB (That's why I haven't uploaded it here)
+Steps to run EDA
+  1.create dataset folder
+  2. Put archive.zip in it.
+  3. Extract it there.
+  
+Files should be like below:
+
+eda_of_one_minute_stock_data.ipynb
+dataset
+  -FullDataCsv
+  -StockMarketHelper
+  -archive.zip
+  -FullData.h5
+  -nifty50.csv
