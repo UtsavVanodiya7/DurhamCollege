@@ -4,6 +4,7 @@ Steps to run EDA
   1.create dataset folder
   2. Put archive.zip in it.
   3. Extract it there.
+  4. nifty50.csv is not in the dataset, so download it from this github directory.
   
 Files should be like below:
 
