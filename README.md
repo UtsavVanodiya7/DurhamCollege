@@ -13,3 +13,9 @@ Project for Introduction to AI Algorithms' subject can be found in AI Algorithms
     - To create an input csv from dataset, you can use create_test_csv_file.ipynb file from Modeling & Evaluation folder. 
      You need to pass csv file path of one minute of data there.
      
+# Example Output
+![Alt text](https://github.com/UtsavVanodiya7/DurhamCollege/blob/main/AI%20Algorithms/Delivery%20%26%20Acceptance/Output%201.JPG "Example 1")
+<br>
+![Alt text](https://github.com/UtsavVanodiya7/DurhamCollege/blob/main/AI%20Algorithms/Delivery%20%26%20Acceptance/Output%202.JPG "Example 2")
+<br><br>
+In the above images, we can see that we have to path of input csv file and we have to select model then run, output will be appended in to the below area.
