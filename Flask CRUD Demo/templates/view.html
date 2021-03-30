@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Student Detail</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}"/>
+</head>
+<body>
+    <h1>{{student.first_name}} {{student.last_name}}'s Details</h1>
+    <table>
+            <tr>
+                <td>Student ID</td>
+                <td>{{student.student_id}}</td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td>{{student.first_name}}</td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>{{student.last_name}}</td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>{{student.dob}}</td>
+            </tr>
+            <tr>
+                <td>Amount Due</td>
+                <td>{{student.amount_due}}</td>
+            </tr>
+        </table>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Student</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}"/>
+</head>
+<body>
+    <h1>Add Student</h1>
+    <table>
+        <form action='/student/create' method = "POST">
+            <tr>
+                <td>Student ID</td>
+                <td><input type = "integer" name="student_id" /></td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type = "text" name="first_name" /></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type = "text" name="last_name" /></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type = "date" name="dob" /></td>
+            </tr>
+            <tr>
+                <td>Amount Due</td>
+                <td><input type = "float" name="amount_due" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
